@@ -25,7 +25,7 @@
   font-family: Arial, sans-serif;
   background-color: #f1efe8;
   display: flex;
-  flex-direction: column;  /* change the value here */
+  flex-direction:column;  /* change the value here */
   min-height: 100vh;
 }
 
@@ -42,7 +42,7 @@
 .header {
   background-color: #1a1a2e;
   color: white;
-  display: flex;
+  display:inline-block;
   padding: 20px 24px;
   gap: 4px;
 /*  */
@@ -73,7 +73,8 @@
 .nav {
   background-color: #0F6E56;
   display: flex;
-  flex-direction: column; 
+  flex-direction: row; 
+  justify-content: space-around;
   padding: 10px 24px;
   gap: 20px;
 
@@ -99,7 +100,7 @@
 .hero {
   background-color: #2c2c3e;
   padding: 20px 24px;
-  display: flex;
+  display: inline-block;
   gap: 10px;
   color: white;
   flex-direction: column;
@@ -116,6 +117,7 @@
   font-size: 13px;
   max-width: 400px;
   line-height: 1.6;
+  
 }
 
 
@@ -163,14 +165,15 @@
   color: #1a1a2e;
   font-size: 13px;
   font-weight: 500;
-  border-bottom: 0.5px solid #D3D1C7;
+  border-bottom: 1000px solid #D3D1C7;
   padding-bottom: 8px;
+  flex-direction: row;
 }
 
 .sidebar-detail {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 100px;
 }
 
 .detail-label {
@@ -188,7 +191,7 @@
   background-color: #EEEDFE;
   color: #534AB7;
   border-radius: 4px;
-  padding: 5px 10px;
+  padding: 5px;
   font-size: 12px;
   text-align: center;
 }
@@ -243,7 +246,7 @@
   background-color: #1a1a2e;
   padding: 12px 24px;
   display: flex;
-  justify-content: center;   
+  justify-content: flex-start;   
   gap: 20px;
 }
 
@@ -327,7 +330,7 @@
 }
 
 .gallery-grid {
-  display: ???;
+  display: flex;
   flex-wrap: ???;
   gap: ???;
   justify-content: ???;
